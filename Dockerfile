@@ -3,7 +3,7 @@ LABEL maintainer="akshay.kumar758@webkul.com"
 
 ENV GOSU_VERSION 1.11
 
-RUN adduser uvdesk -q --disabled-password --gecos ""
+RUN adduser centos -q --disabled-password --gecos ""
 
 # Install base supplimentary packages
 RUN apt-get update && apt-get -y upgrade \
@@ -32,13 +32,13 @@ RUN apt-get update && apt-get -y upgrade \
 COPY ./.docker/config/apache2/env /etc/apache2/envvars
 COPY ./.docker/config/apache2/httpd.conf /etc/apache2/apache2.conf
 COPY ./.docker/config/apache2/vhost.conf /etc/apache2/sites-available/000-default.conf
-COPY ./.docker/bash/uvdesk-entrypoint.sh /usr/local/bin/
-COPY . /var/www/uvdesk/
+COPY ./.docker/bash/centos-entrypoint.sh /usr/local/bin/
+COPY . /var/www/centos/
 
 RUN \
     # Update apache configurations
     a2enmod php7.4 rewrite; \
-    chmod +x /usr/local/bin/uvdesk-entrypoint.sh; \
+    chmod +x /usr/local/bin/centos-entrypoint.sh; \
     # Install gosu for stepping-down from root to a non-privileged user during container startup
     dpkgArch="$(dpkg --print-architecture | awk -F- '{ print $NF }')"; \
     wget -O /usr/local/bin/gosu "https://github.com/tianon/gosu/releases/download/$GOSU_VERSION/gosu-$dpkgArch" \
@@ -62,8 +62,8 @@ RUN \
     # Install composer
     php /usr/local/bin/composer.php --quiet --filename=/usr/local/bin/composer \
     && chmod +x /usr/local/bin/composer; \
-    # Assign user uvdesk the ownership of source directory
-    chown -R uvdesk:uvdesk /var/www; \
+    # Assign user centos the ownership of source directory
+    chown -R centos:centos /var/www; \
     # Clean up files
     rm -rf \
         "$GNUPGHOME" \
@@ -72,10 +72,10 @@ RUN \
         /usr/local/bin/composer.php \
         /var/www/bin \
         /var/www/html \
-        /var/www/uvdesk/.docker;
+        /var/www/centos/.docker;
 
-# Change working directory to uvdesk source
+# Change working directory to centos source
 WORKDIR /var/www
 
-ENTRYPOINT ["uvdesk-entrypoint.sh"]
+ENTRYPOINT ["centos-entrypoint.sh"]
 CMD ["/bin/bash"]

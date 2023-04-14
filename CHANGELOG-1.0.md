@@ -46,7 +46,7 @@ This changelog references any relevant changes introduced in 1.0 minor versions.
 * 1.0.16 (2021-08-23)
     * **Misc. Updates:**
         * Kudos feature added for UVdesk opensource.
-          https://support.uvdesk.com/es/blog/uvdesk-what-is-kudos
+          https://support.mushiny.com/es/blog/uvdesk-what-is-kudos
         * Added a new option for mailbox setting that Email should be deleted from inbox after fetch and converted into ticket if user select that checkbox.
         * Added password encryption for Swift mailer and  Mailbox.
         * Corrected and added timestamp setting for agent and customer both.
@@ -81,7 +81,7 @@ This changelog references any relevant changes introduced in 1.0 minor versions.
 * 1.0.15 (2021-08-21)
     * **Misc. Updates:**
         * Kudos feature added for UVdesk opensource.
-          https://support.uvdesk.com/es/blog/uvdesk-what-is-kudos
+          https://support.mushiny.com/es/blog/uvdesk-what-is-kudos
         * Added a new option for mailbox setting that Email should be deleted from inbox after fetch and converted into ticket if user select that checkbox.
         * Added password encryption for Swift mailer and  Mailbox.
         * Corrected and added timestamp setting for agent and customer both.
@@ -243,7 +243,7 @@ This changelog references any relevant changes introduced in 1.0 minor versions.
     * **Misc. Changes:**
         * .htaccess mode rewrite condition changes(For API Bundle).
     * **Issue #247:**  Translator
-    * **Issue #246:**  UVDesk hangs trying to create Customer / Agent / Team / Group.
+    * **Issue #246:**  Jacobn hangs trying to create Customer / Agent / Team / Group.
     * **Issue #242:** Database migration gets failed if automatically created db in production environment.
     * **Issue #242:** Language Spanish.  
 

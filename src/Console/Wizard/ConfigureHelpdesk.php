@@ -36,7 +36,7 @@ class ConfigureHelpdesk extends Command
     protected function configure()
     {
         $this
-            ->setName('uvdesk:configure-helpdesk')
+            ->setName('jacobn:configure-helpdesk')
             ->setDescription('Scans through your helpdesk setup to check for any mis-configurations.')
         ;
     }
