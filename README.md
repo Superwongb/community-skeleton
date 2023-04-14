@@ -1,5 +1,5 @@
-<p align="center"><a href="https://www.uvdesk.com/en/" target="_blank">
-    <img src="https://s3-ap-southeast-1.amazonaws.com/cdn.uvdesk.com/uvdesk/bundles/webkuldefault/images/uvdesk-wide.svg">
+<p align="center"><a href="https://www.mushiny.com/en/" target="_blank">
+    <img src="https://s3-ap-southeast-1.amazonaws.com/cdn.mushiny.com/uvdesk/bundles/webkuldefault/images/uvdesk-wide.svg">
 </a></p>
 
 <p align="center">
@@ -9,7 +9,7 @@
     <a href="#backers"><img src="https://opencollective.com/uvdesk/backers/badge.svg" alt="Backers on Open Collective"></a>
     <a href="#sponsors"><img src="https://opencollective.com/uvdesk/sponsors/badge.svg" alt="Sponsors on Open Collective"></a>
     <a href="https://gitter.im/uvdesk/community"><img src="https://badges.gitter.im/uvdesk/community-skeleton.svg" alt="connect on gitter"></a>
-    <a href="https://forums.uvdesk.com"><img src="https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg" alt="discuss on uvdesk forum"></a>
+    <a href="https://forums.mushiny.com"><img src="https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg" alt="discuss on uvdesk forum"></a>
     <a href="https://github.com/collections/made-in-india"><img src="https://badges.frapsoft.com/os/v3/open-source.png?v=103" alt="Checkout us on open source projects from India"></a>
 </p>
 
@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-    ➡️ <a href="https://www.uvdesk.com/en/opensource/">Website</a> | <a href="https://docs.uvdesk.com/">Documentation</a> | <a href="https://www.uvdesk.com/en/blog/open-source-helpdesk-installation-on-ubuntu-uvdesk/">Installation Guide</a> | <a href="https://forums.uvdesk.com/">Forums</a> | <a href="https://www.facebook.com/uvdesk/">Community</a> ⬅️
+    ➡️ <a href="https://www.mushiny.com/en/opensource/">Website</a> | <a href="https://docs.mushiny.com/">Documentation</a> | <a href="https://www.mushiny.com/en/blog/open-source-helpdesk-installation-on-ubuntu-uvdesk/">Installation Guide</a> | <a href="https://forums.mushiny.com/">Forums</a> | <a href="https://www.facebook.com/uvdesk/">Community</a> ⬅️
 </p>
 
 <p align="center" style="display: inline;">
@@ -69,13 +69,13 @@ The standard distribution comes packaged along with the following helpdesk packa
 
   * [**Automation Bundle**][4] - Adds support for workflows and prepared responses to automate any specific operations within your helpdesk system
 
-  * [**Mailbox Component**][11] - Convert and get all your emails to support tickets on UVDesk and manage customer query easily.
+  * [**Mailbox Component**][11] - Convert and get all your emails to support tickets on Jacobn and manage customer query easily.
 
   * [**Support Center Bundle**][5] - Integrates the easily customizable support center portal to enable users to easily interact with the support staff through your helpdesk system
 
 Reach out to us at our official [gitter chat][20] or by joining [forum][21] for any queries, concerns and feature request discussions.
 
-The development of the uvdesk community edition is led by the [uvdesk][10] team and backed by [Webkul][9]. Visit our [website][1] to learn more about the UVDesk Helpdesk System.
+The development of the uvdesk community edition is led by the [uvdesk][10] team and backed by [Webkul][9]. Visit our [website][1] to learn more about the Jacobn Helpdesk System.
 
 Features
 ----------------
@@ -113,7 +113,7 @@ Features
 Documentation
 --------------
 
-Visit [docs.uvdesk.com](https://docs.uvdesk.com/) to read our official documentation and learn more about the uvdesk community project.
+Visit [docs.mushiny.com](https://docs.mushiny.com/) to read our official documentation and learn more about the uvdesk community project.
 
 We use Jekyll to develop and maintain our documentations. Consider contributing by submitting a pull request to our project's [jeykll repository](https://github.com/uvdesk/uvdesk.github.io).
 
@@ -157,10 +157,10 @@ $ composer create-project uvdesk/community-skeleton helpdesk-project
 
 #### Direct Download
 
-Alternatively, you can also [download the zip archive](https://cdn.uvdesk.com/uvdesk/downloads/opensource/uvdesk-community-current-stable.zip) of the latest stable release and extract its content by running the following commands from your terminal:
+Alternatively, you can also [download the zip archive](https://cdn.mushiny.com/uvdesk/downloads/opensource/uvdesk-community-current-stable.zip) of the latest stable release and extract its content by running the following commands from your terminal:
 
 ```bash
-$ wget "https://cdn.uvdesk.com/uvdesk/downloads/opensource/uvdesk-community-current-stable.zip" -P /var/www/
+$ wget "https://cdn.mushiny.com/uvdesk/downloads/opensource/uvdesk-community-current-stable.zip" -P /var/www/
 $ unzip -q /var/www/uvdesk-community-current-stable.zip -d /var/www/ \
 ```
 
@@ -231,17 +231,17 @@ Modules
 
 [Available Modules/Apps](https://store.webkul.com/UVdesk/UVdesk-Open-Source.html)
 
-Need something else ? email us at support@uvdesk.com
+Need something else ? email us at support@mushiny.com
 
 License
 --------------
 
-All libraries and bundles included in the UVDesk Community Edition are released under the [MIT][12] license.
+All libraries and bundles included in the Jacobn Community Edition are released under the [MIT][12] license.
 
 Security Vulnerabilities
 --------------
 
-Please don't disclose any security vulnerabilities publicly. If you find any security vulnerability in our platform then please write us at [support@uvdesk.com](mailto:support@uvdesk.com).
+Please don't disclose any security vulnerabilities publicly. If you find any security vulnerability in our platform then please write us at [support@mushiny.com](mailto:support@mushiny.com).
 
 Feedback
 ---------
@@ -269,36 +269,36 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 
 <a href="https://opencollective.com/uvdesk/contribute/sponsor-7372/checkout" target="_blank"><img src="https://images.opencollective.com/static/images/become_sponsor.svg"></a>
 
-[1]: https://www.uvdesk.com/
+[1]: https://www.mushiny.com/
 [2]: https://github.com/uvdesk/core-framework
 [3]: https://github.com/uvdesk/extension-framework
 [4]: https://github.com/uvdesk/automation-bundle
 [5]: https://github.com/uvdesk/support-center-bundle
-[6]: https://support.uvdesk.com/en/blog/prerequisites-ubuntu
-[7]: https://support.uvdesk.com/en/blog/prerequisites-ubuntu
+[6]: https://support.mushiny.com/en/blog/prerequisites-ubuntu
+[7]: https://support.mushiny.com/en/blog/prerequisites-ubuntu
 [8]: https://getcomposer.org/
 [9]: https://webkul.com/
-[10]: https://www.uvdesk.com/en/team/
+[10]: https://www.mushiny.com/en/team/
 [11]: https://github.com/uvdesk/mailbox-component
 [12]: https://github.com/uvdesk/community-skeleton/blob/master/LICENSE
 [13]: https://opencollective.com/uvdesk
-[14]: https://docs.uvdesk.com/
-[15]: https://demo.uvdesk.com/
+[14]: https://docs.mushiny.com/
+[15]: https://demo.mushiny.com/
 [16]: https://github.com/uvdesk/api-bundle
-[17]: https://www.trustpilot.com/review/uvdesk.com
+[17]: https://www.trustpilot.com/review/mushiny.com
 [18]: https://www.capterra.com/p/158346/UVdesk/
 [19]: https://www.softwaresuggest.com/uvdesk
 [20]: https://gitter.im/uvdesk/community
-[21]: https://forums.uvdesk.com/
+[21]: https://forums.mushiny.com/
 [22]: https://github.com/uvdesk/community-skeleton/wiki/dockerize-helpdesk-project
-[23]: https://support.uvdesk.com/en/blog/prerequisites-windows
+[23]: https://support.mushiny.com/en/blog/prerequisites-windows
 [24]: https://symfony.com/projects/uvdesk
 [25]: https://github.com/uvdesk/api-bundle/wiki/Ticket-Related-APIs
 [26]: https://store.webkul.com/UVdesk/UVdesk-Open-Source.html
-[27]: https://support.uvdesk.com/en/blog/prerequisites-mac
-[28]: https://support.uvdesk.com/en/blog/prerequisites-centos7
-[29]: https://www.uvdesk.com/en/blog/uvdesk-agent-activity/
-[30]: https://www.uvdesk.com/en/blog/uvdesk-marketing-announcement/
-[31]: https://support.uvdesk.com/es/blog/uvdesk-what-is-kudos
-[32]: https://www.uvdesk.com/en/blog/language-translation-in-uvdesk-open-source-helpdesk/
+[27]: https://support.mushiny.com/en/blog/prerequisites-mac
+[28]: https://support.mushiny.com/en/blog/prerequisites-centos7
+[29]: https://www.mushiny.com/en/blog/uvdesk-agent-activity/
+[30]: https://www.mushiny.com/en/blog/uvdesk-marketing-announcement/
+[31]: https://support.mushiny.com/es/blog/uvdesk-what-is-kudos
+[32]: https://www.mushiny.com/en/blog/language-translation-in-uvdesk-open-source-helpdesk/
 

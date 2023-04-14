@@ -27,10 +27,10 @@ if [[ ! -z "$MYSQL_USER" && ! -z "$MYSQL_PASSWORD" && ! -z "$MYSQL_DATABASE" ]];
         # Update root user credentials
         mysql -u root -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '$MYSQL_ROOT_PASSWORD'";
 
-        # Create new mysql configuration files (root & uvdesk)
-        rm -f /etc/mysql/my.cnf /home/uvdesk/.my.cnf \
+        # Create new mysql configuration files (root & centos)
+        rm -f /etc/mysql/my.cnf /home/centos/.my.cnf \
             && echo -e "[client]\nuser = root\npassword = $MYSQL_ROOT_PASSWORD\nhost = localhost" >> /etc/mysql/my.cnf \
-            && echo -e "[client]\nuser = $MYSQL_USER\npassword = $MYSQL_PASSWORD\nhost = localhost" >> /home/uvdesk/.my.cnf;
+            && echo -e "[client]\nuser = $MYSQL_USER\npassword = $MYSQL_PASSWORD\nhost = localhost" >> /home/centos/.my.cnf;
     else
         echo -e "${COLOR_RED}Error: Failed to establish a connection with mysql server (localhost)${COLOR_NC}\n";
         exit 1;
@@ -39,7 +39,7 @@ else
     echo -e "${COLOR_LIGHT_YELLOW}Notice: Skipping configuration of local database - one or more mysql environment variables are not defined.${COLOR_NC}\n";
 fi
 
-# Step down from sudo to uvdesk
-/usr/local/bin/gosu uvdesk "$@"
+# Step down from sudo to centos
+/usr/local/bin/gosu centos "$@"
 
 exec "$@"
