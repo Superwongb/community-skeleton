@@ -14,10 +14,10 @@ use Symfony\Component\Console\Output\NullOutput;
 use Symfony\Component\HttpKernel\KernelInterface;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
-use Webkul\UVDesk\CoreFrameworkBundle\Entity\SupportRole;
-use Webkul\UVDesk\CoreFrameworkBundle\Entity\User;
-use Webkul\UVDesk\CoreFrameworkBundle\Entity\UserInstance;
-use Webkul\UVDesk\CoreFrameworkBundle\Services\UVDeskService;
+use Harryn\Jacobn\CoreFrameworkBundle\Entity\SupportRole;
+use Harryn\Jacobn\CoreFrameworkBundle\Entity\User;
+use Harryn\Jacobn\CoreFrameworkBundle\Entity\UserInstance;
+use Harryn\Jacobn\CoreFrameworkBundle\Services\UVDeskService;
 
 class ConfigureHelpdesk extends AbstractController
 {
@@ -102,7 +102,7 @@ class ConfigureHelpdesk extends AbstractController
                         $response['message'] = sprintf('Read/Write permission enabled for .env file.');
                     } else {
                         $response['message'] = sprintf('Please enable read/write permission for <b>.env</b> file of your project.');
-                        $response['description'] = '</span> Issue can be resolved by simply <a href="https://www.uvdesk.com/en/blog/open-source-helpdesk-installation-on-ubuntu-uvdesk/" target="_blank"><p> enabling your <b>.env</b> file read/write permission</a> refresh the browser and try again.</p>';
+                        $response['description'] = '</span> Issue can be resolved by simply <a href="https://www.mushiny.com/en/blog/open-source-helpdesk-installation-on-ubuntu-jacobn/" target="_blank"><p> enabling your <b>.env</b> file read/write permission</a> refresh the browser and try again.</p>';
                     }
                 break;
             case 'php-configfiles-permission':
@@ -114,7 +114,7 @@ class ConfigureHelpdesk extends AbstractController
    
                     $response = [
                         'configfiles' => $configfiles_status,
-                        'description' => '</span> <br><p> Issue can be resolved by simply <a href="https://www.uvdesk.com/en/blog/open-source-helpdesk-installation-on-ubuntu-uvdesk/" target="_blank"> enabling read/write permissions for your files under config/packages folder of your project.</a></p>',
+                        'description' => '</span> <br><p> Issue can be resolved by simply <a href="https://www.mushiny.com/en/blog/open-source-helpdesk-installation-on-ubuntu-jacobn/" target="_blank"> enabling read/write permissions for your files under config/packages folder of your project.</a></p>',
                     ];
                 break;
             default:

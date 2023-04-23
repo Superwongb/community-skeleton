@@ -6,7 +6,7 @@ security:
         ROLE_CUSTOMER: ROLE_CUSTOMER
     
     encoders:
-        Webkul\UVDesk\CoreFrameworkBundle\Entity\User: auto
+        Harryn\Jacobn\CoreFrameworkBundle\Entity\User: auto
     
     # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
     providers:

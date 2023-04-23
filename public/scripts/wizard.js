@@ -38,7 +38,7 @@
                     await $.post('./wizard/xhr/load/configurations').fail(response => {
                         if (response.status == 500) {
                             this.$el.find('.wizard-svg-icon-failed-criteria-checklist').html(this.wizard_icons_notice_template());
-                            this.$el.find('#error-message-bar').html('</span> Issue can be resolved by simply <a href="https://www.uvdesk.com/en/blog/open-source-helpdesk-installation-on-ubuntu-uvdesk/" target="_blank"><p> enabling your <b>.env</b> file read/write permission</a> refresh the browser and try again.</p>');
+                            this.$el.find('#error-message-bar').html('</span> Issue can be resolved by simply <a href="https://www.mushiny.com/en/blog/open-source-helpdesk-installation-on-ubuntu-jacobn/" target="_blank"><p> enabling your <b>.env</b> file read/write permission</a> refresh the browser and try again.</p>');
                         }
                     });
                     

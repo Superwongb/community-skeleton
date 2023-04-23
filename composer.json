@@ -1,6 +1,6 @@
 {
-    "name": "uvdesk/community-skeleton",
-    "description": "UVDesk Community Helpdesk Project Skeleton",
+    "name": "jacobn/community-skeleton",
+    "description": "Mushiny Community Helpdesk Project Skeleton",
     "type": "project",
     "license": "MIT",
     "minimum-stability": "dev",
@@ -47,11 +47,11 @@
         "symfony/yaml": "*",
         "twig/extra-bundle": "^2.12|^3.0",
         "twig/twig": "^2.12|^3.0",
-        "uvdesk/automation-bundle": "dev-master",
-        "uvdesk/core-framework": "dev-master",
-        "uvdesk/extension-framework": "dev-master",
-        "uvdesk/mailbox-component": "dev-master",
-        "uvdesk/support-center-bundle": "dev-master"
+        "jacobn/automation-bundle": "dev-master",
+        "jacobn/core-framework": "dev-master",
+        "jacobn/extension-framework": "dev-master",
+        "jacobn/mailbox-component": "dev-master",
+        "jacobn/support-center-bundle": "dev-master"
     },
     "require-dev": {
     },
@@ -107,7 +107,7 @@
         "symfony": {
             "allow-contrib": false,
             "endpoint": [
-                "https://api.github.com/repos/uvdesk/recipes/contents/index.json",
+                "https://api.github.com/repos/jacobn/recipes/contents/index.json",
                 "flex://defaults"
             ],
             "require": "^5.4"

@@ -1,9 +1,9 @@
 <?php
 
 return [
-    Webkul\UVDesk\CoreFrameworkBundle\UVDeskCoreFrameworkBundle::class => ['all' => true],
-    Webkul\UVDesk\AutomationBundle\UVDeskAutomationBundle::class => ['all' => true],
-    Webkul\UVDesk\ExtensionFrameworkBundle\UVDeskExtensionFrameworkBundle::class => ['all' => true],
-    Webkul\UVDesk\MailboxBundle\UVDeskMailboxBundle::class => ['all' => true],
-    Webkul\UVDesk\SupportCenterBundle\UVDeskSupportCenterBundle::class => ['all' => true],
+    Harryn\Jacobn\CoreFrameworkBundle\UVDeskCoreFrameworkBundle::class => ['all' => true],
+    Harryn\Jacobn\AutomationBundle\UVDeskAutomationBundle::class => ['all' => true],
+    Harryn\Jacobn\ExtensionFrameworkBundle\UVDeskExtensionFrameworkBundle::class => ['all' => true],
+    Harryn\Jacobn\MailboxBundle\UVDeskMailboxBundle::class => ['all' => true],
+    Harryn\Jacobn\SupportCenterBundle\UVDeskSupportCenterBundle::class => ['all' => true],
 ];

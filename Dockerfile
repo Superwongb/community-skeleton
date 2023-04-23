@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-LABEL maintainer="akshay.kumar758@webkul.com"
+LABEL maintainer="akshay.kumar758@Harryn.com"
 
 ENV GOSU_VERSION 1.11
 
@@ -33,7 +33,7 @@ COPY ./.docker/config/apache2/env /etc/apache2/envvars
 COPY ./.docker/config/apache2/httpd.conf /etc/apache2/apache2.conf
 COPY ./.docker/config/apache2/vhost.conf /etc/apache2/sites-available/000-default.conf
 COPY ./.docker/bash/uvdesk-entrypoint.sh /usr/local/bin/
-COPY . /var/www/uvdesk/
+COPY . /var/www/jacobn/
 
 RUN \
     # Update apache configurations
@@ -72,7 +72,7 @@ RUN \
         /usr/local/bin/composer.php \
         /var/www/bin \
         /var/www/html \
-        /var/www/uvdesk/.docker;
+        /var/www/jacobn/.docker;
 
 # Change working directory to uvdesk source
 WORKDIR /var/www
